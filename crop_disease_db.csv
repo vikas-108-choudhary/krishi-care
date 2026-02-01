@@ -1,0 +1,39 @@
+disease,overview,cause,chemical,organic,prevention
+corn common rust,Corn Common Rust is a fungal disease affecting maize leaves,Caused by fungus Puccinia sorghi that spreads in warm humid weather,Mancozeb or Propiconazole spray,Neem oil spray,"Use resistant varieties,Ensure proper spacing,Avoid overhead irrigation"
+corn northern leaf blight,Fungal disease causing elongated grey lesions on corn leaves,Caused by Exserohilum turcicum,Azoxystrobin fungicide,Trichoderma spray,"Crop rotation,Remove infected debris"
+
+tomato leaf mold,Fungal disease common in humid conditions,Cladosporium fulvum fungus,Chlorothalonil fungicide,Neem oil spray,"Improve ventilation,Remove infected leaves"
+tomato early blight,Fungal disease causing concentric rings on leaves,Alternaria solani fungus,Mancozeb spray,Garlic extract spray,"Crop rotation,Avoid overhead irrigation"
+tomato late blight,Serious disease causing leaf and fruit rot,Phytophthora infestans,Metalaxyl fungicide,Copper fungicide,"Destroy infected plants,Use resistant varieties"
+tomato bacterial spot,Bacterial disease causing dark lesions,Xanthomonas bacteria,Copper-based bactericide,Neem oil,"Use certified seeds,Avoid working in wet fields"
+
+potato early blight,Fungal disease causing leaf spots and tuber damage,Alternaria solani fungus,Mancozeb spray,Compost tea,"Crop rotation,Remove crop residues"
+potato late blight,Highly destructive potato disease,Phytophthora infestans,Metalaxyl fungicide,Copper fungicide,"Use certified seed potatoes,Avoid excess moisture"
+
+apple scab,Fungal disease causing dark leaf spots,Venturia inaequalis fungus,Captan fungicide,Sulfur spray,"Prune trees,Remove fallen leaves"
+apple black rot,Fungal disease affecting fruit and leaves,Botryosphaeria obtusa fungus,Thiophanate-methyl,Neem oil,"Remove mummified fruits,Pruning infected branches"
+apple cedar rust,Fungal disease causing yellow leaf spots,Gymnosporangium fungus,Myclobutanil fungicide,Neem oil,"Remove nearby juniper plants,Use resistant varieties"
+
+mustard leaf blight,Fungal disease affecting mustard leaves,Alternaria brassicae,Mancozeb spray,Neem extract,"Early sowing,Crop rotation"
+sugarcane red rot,Severe fungal disease of sugarcane,Colletotrichum falcatum,Carbendazim fungicide,Trichoderma,"Use disease-free setts,Ensure proper drainage"
+
+mango anthracnose,Fungal disease affecting mango flowers and fruits,Colletotrichum gloeosporioides,Carbendazim spray,Neem oil,"Pruning infected branches,Avoid water stagnation"
+banana panama disease,Soil-borne fungal disease,Fusarium oxysporum,No effective chemical,Soil solarization,"Use resistant varieties,Avoid infected soil"
+
+strawberry leaf scorch,Fungal disease causing purple leaf spots,Diplocarpon earliana,Captan fungicide,Neem oil,"Remove infected leaves,Maintain good spacing"
+orange citrus canker,Bacterial disease causing raised lesions,Xanthomonas citri,Copper spray,Neem oil,"Use disease-free plants,Windbreaks"
+
+kiwi bacterial canker,Bacterial disease affecting vines,Pseudomonas syringae,Copper bactericide,Neem oil,"Prune infected vines,Avoid wounds"
+cauliflower black rot,Bacterial disease of crucifers,Xanthomonas campestris,Copper spray,Garlic extract,"Crop rotation,Seed treatment"
+
+ladyfinger yellow vein mosaic,Viral disease causing yellow veins,Begomovirus,Vector control,Neem oil,"Use resistant varieties,Remove infected plants"
+beans rust,Fungal disease causing rust pustules on leaves,Uromyces species,Mancozeb spray,Neem oil,"Crop rotation,Remove residues"
+
+peas powdery mildew,Fungal disease causing white powdery growth,Erysiphe pisi,Carbendazim spray,Milk spray,"Avoid overcrowding,Use resistant varieties"
+capsicum leaf curl,Viral disease affecting plant growth,Begomovirus,Whitefly control,Neem oil,"Use healthy seedlings,Control vectors"
+
+tomato septoria leaf spot,Fungal disease causing small dark spots,Septoria lycopersici,Chlorothalonil spray,Neem oil,"Remove infected leaves,Avoid overhead irrigation"
+tomato spider mites,Pest infestation causing yellow stippling,Tetranychus urticae,Abamectin spray,Neem oil,"Maintain humidity,Remove infested leaves"
+tomato target spot,Fungal disease causing concentric leaf spots,Corynespora cassiicola,Mancozeb spray,Garlic extract,"Crop rotation,Remove debris"
+tomato mosaic virus,Viral disease causing mottled leaves,Tomato mosaic virus,No chemical control,Remove infected plants,"Use certified seeds,Disinfect tools"
+tomato yellow leaf curl virus,Viral disease causing leaf curling,Begomovirus,Whitefly control,Neem oil,"Control whiteflies,Use resistant varieties"
