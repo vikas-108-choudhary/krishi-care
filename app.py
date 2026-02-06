@@ -5,7 +5,6 @@ import tensorflow as tf
 from PIL import Image
 
 
-app.secret_key = "krishicare_secret_2026"
 
 # Store conversation context per session
 conversation_context = {}
@@ -117,5 +116,6 @@ def chat():
         import traceback
         traceback.print_exc()
         return jsonify({"reply": f"System Error: {str(e)}"})
+
 
 
