@@ -4,6 +4,16 @@ import os
 import numpy as np
 import tensorflow as tf
 from PIL import Image
+import streamlit.components.v1 as components
+
+# 1. Load your existing CSS/HTML
+# This ensures your design stays exactly the same
+with open("templates/index.html", "r") as f:
+    html_content = f.read()
+
+# 2. Display your design
+# This will render your original colors and positions
+st.markdown(html_content, unsafe_allow_html=True)
 
 
 
@@ -113,6 +123,7 @@ def chat():
         import traceback
         traceback.print_exc()
         return jsonify({"reply": f"System Error: {str(e)}"})
+
 
 
 
