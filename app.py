@@ -10,7 +10,6 @@ from PIL import Image
 conversation_context = {}
 
 # Load model once at startup to prevent lag during analysis
-model = tf.keras.models.load_model(MODEL_PATH) if os.path.exists(MODEL_PATH) else None
 
 try:
     from llm_chatbot import ask_llm
@@ -113,6 +112,7 @@ def chat():
         import traceback
         traceback.print_exc()
         return jsonify({"reply": f"System Error: {str(e)}"})
+
 
 
 
