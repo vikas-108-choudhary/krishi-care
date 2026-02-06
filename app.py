@@ -1,4 +1,5 @@
-
+import streamlit as st
+st.write("If you see this, the connection is working!")
 import os
 import numpy as np
 import tensorflow as tf
@@ -112,6 +113,7 @@ def chat():
         import traceback
         traceback.print_exc()
         return jsonify({"reply": f"System Error: {str(e)}"})
+
 
 
 
