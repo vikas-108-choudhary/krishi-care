@@ -1,10 +1,10 @@
-from flask import Flask, request, jsonify, render_template, session
+
 import os
 import numpy as np
 import tensorflow as tf
 from PIL import Image
 
-app = Flask(__name__)
+
 app.secret_key = "krishicare_secret_2026"
 
 # Store conversation context per session
@@ -117,4 +117,5 @@ def chat():
         import traceback
         traceback.print_exc()
         return jsonify({"reply": f"System Error: {str(e)}"})
+
 
