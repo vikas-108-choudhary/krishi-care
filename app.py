@@ -10,7 +10,6 @@ from PIL import Image
 conversation_context = {}
 
 # Load model once at startup to prevent lag during analysis
-MODEL_PATH = os.path.join("models", "crop_model.h5")
 model = tf.keras.models.load_model(MODEL_PATH) if os.path.exists(MODEL_PATH) else None
 
 try:
@@ -34,11 +33,9 @@ CLASS_NAMES = [
     "Mango Anthracnose", "Mango Malformation", "Mango Healthy"
 ]
 
-@app.route("/")
-def home():
-    return render_template("index.html")
 
-@app.route("/predict", methods=["POST"])
+
+
 def predict():
     if not model: return jsonify({"error": "Model missing"})
     try:
@@ -77,7 +74,7 @@ def predict():
     except Exception as e:
         return jsonify({"error": str(e)})
 
-@app.route("/chat", methods=["POST"])
+
 def chat():
     try:
         data = request.json
@@ -116,6 +113,7 @@ def chat():
         import traceback
         traceback.print_exc()
         return jsonify({"reply": f"System Error: {str(e)}"})
+
 
 
 
